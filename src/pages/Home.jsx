@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero";
 import Header from "../layout/Header";
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <div>
       <div>
         <Header />
+        <Hero />
       </div>
     </div>
   );

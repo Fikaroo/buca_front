@@ -6,7 +6,7 @@ import logoColored from "../assets/media/bucatechlogo_colored.svg";
 function Header() {
   return (
     <div className="w-full h-20 sticky">
-      <div className="flex justify-center items-center px-32 py-4">
+      <div className="flex justify-center items-center px-28 py-4">
         <img className="w-40" src={logoColored} alt="BucaLogo" />
         <Nav />
         <Rightheader />
